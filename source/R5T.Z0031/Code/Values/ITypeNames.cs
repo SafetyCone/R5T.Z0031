@@ -20,6 +20,6 @@ namespace R5T.Z0031.Raw
     [ValuesMarker]
     public partial interface ITypeNames : IValuesMarker
     {
-        public TypeName ReturnType_ForMethod0001 => "Microsoft.CodeAnalysis.SyntaxTriviaList".ToTypeName();
+        public ITypeName ReturnType_ForMethod0001 => "Microsoft.CodeAnalysis.SyntaxTriviaList".ToTypeName();
     }
 }

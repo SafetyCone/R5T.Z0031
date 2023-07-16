@@ -20,6 +20,6 @@ namespace R5T.Z0031.Raw
     [ValuesMarker]
     public partial interface ITypeNamedMethodNames : IValuesMarker
     {
-        public TypeNamedMethodName For_Method0001 => "R5T.F0007.IIndentationGenerator.ForClass".ToTypeNamedMethodName();
+        public ITypeNamedMethodName For_Method0001 => "R5T.F0007.IIndentationGenerator.ForClass".ToTypeNamedMethodName();
     }
 }
